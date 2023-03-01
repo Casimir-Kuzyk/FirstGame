@@ -1,9 +1,7 @@
 class spells {
-    constructor(name,damage,mana) {
+    constructor(name,damage) {
         this.name = name;
-        this.level = 1;
         this.damage = damage;
-        this.mana = mana;
     }
 }
 
